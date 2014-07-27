@@ -42,3 +42,6 @@ cacheSolve <- function(x, ...) {
     x$setInverse(m)
     m
 }
+
+mymat = rbind(c(1,0,2),c(2,-1,3),c(4,1,8))
+cacheSolve(makeCacheMatrix(mymat))
